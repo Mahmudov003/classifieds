@@ -1,11 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Nav from "./feedback/Nav";
+import Main from "./feedback/Main";
+import Filter from "./feedback/Filter";
+import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Main>
+          <Filter/>
+        </Main>
+      </div>
+    </BrowserRouter>
   );
 }
 
