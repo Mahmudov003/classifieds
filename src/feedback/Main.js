@@ -1,5 +1,5 @@
 import "../feedback/feedback.css";
-function Main() {
+function Main() {  
   return(
      <main className="main">
 

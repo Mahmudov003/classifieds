@@ -33,6 +33,7 @@
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 3px;
+    margin: 0 5px;
     color: rgb(255, 255, 255);
 }
 .navbar_ul li {
@@ -41,4 +42,45 @@
 
 .navbar_ul li Link {
     list-style: none;
+}
+
+/* ////////////////////// WRAPPER /////////////// */
+
+.wrapper {
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.filter {
+    width: 90%;
+    display: grid;
+    gap: 20px;
+}
+
+.form-select {
+    width: 100%;
+   font-size: 20px;
+}
+
+/* date */
+.dataTime {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.date {
+    border-radius: 5px;
+}
+/* button */
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    background: rgba(1, 255, 1, 0.795);
+    color: #fff;
+    width: 100%;
 }

@@ -1,15 +1,17 @@
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import Nav from "./feedback/Nav";
 import Main from "./feedback/Main";
-import Filter from "./feedback/Filter";
-import { BrowserRouter, Route } from "react-router-dom";
+import FilterGroup from "./feedback/Filter";
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Nav />
-        <Main>
-          <Filter/>
-        </Main>
+        <div className="wrapper">
+          <FilterGroup />
+          <Main />
+        </div>
       </div>
     </BrowserRouter>
   );

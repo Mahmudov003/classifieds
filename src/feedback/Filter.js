@@ -1,8 +1,10 @@
-function Filter() {
-  return (
+import '../feedback/feedback.css';
+// import { Link } from 'react-router-dom';
+function FilterGroup() {
+    return (
     <div className="filter">
-      <select class="form-select">
-        <option selected>Hudud</option>
+      <select className="form-select">
+        <option defaultValue>Hudud</option>
         <option value="1">Toshkent</option>
         <option value="2">Farg'ona</option>
         <option value="3">Namangan</option>
@@ -16,13 +18,26 @@ function Filter() {
         <option value="11">Qoraqalpog'iston</option>
         <option value="12">Jizzax</option>
       </select>
-      <input type="text" placeholder="Kategoriya" />
+      {/* kategory */}
+      <select className="form-select">
+        <option defaultValue>Kategoriya</option>
+        <option value="1">Pul</option>
+        <option value="2">Hamyon</option>
+        <option value="3">Tilla taqinchoqlar</option>
+        <option value="4">Plastik karta</option>
+        <option value="5">Shaxsiy Hujjatlar</option>
+        <option value="6">Telefon</option>
+        <option value="7">Uy hayvonlari</option>
+        <option value="8">Boshqa</option>
+      </select>
+      {/* ======== */}
       <div className="dataTime">
-        <input type="data" placeholder="Vaqt (dan)" />
-        <input type="data" placeholder="Vaqt (gacha)" />
+        <input type="date" className='date' placeholder="Vaqt (dan)" />
+        <input type="date" className='date' placeholder="Vaqt (gacha)" />
       </div>
+      <button type="submit" className="btn">Filterlash</button>
     </div>
   );
 }
 
-export default Filter;
+export default FilterGroup;
