@@ -1,12 +1,23 @@
-.col-product{
-      margin: 10px;
+.col-product {
+      margin: 0 10px;
+      div {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 25px;
+      }
 }
 
-.card-product{
+.card-product {
       width: 18rem;
       border: 1px solid red;
       padding: 10px;
-      .product-img{
+      display: flex;
+      flex-direction: column;
+      .product-img {
             width: 100%;
+      }
+
+      .product-title {
+            font-size: 25px;
       }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../feedback/feedback.css";
+import "../products/feedback.css";
 
 function Nav() {
   return (
@@ -26,7 +26,6 @@ function Nav() {
       </nav>
 
     </React.Fragment>
-
   );
 }
 
