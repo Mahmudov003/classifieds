@@ -8,7 +8,6 @@ function Main(props) {
   const [page, setPage] = useState(0);
 
   useEffect((e) => {
-    console.log('effect')
       (async function () {
         try {
           const response = await axios.get(
