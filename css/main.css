@@ -1,0 +1,12 @@
+.col-product {
+  margin: 10px;
+}
+
+.card-product {
+  width: 18rem;
+  border: 1px solid red;
+  padding: 10px;
+}
+.card-product .product-img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
