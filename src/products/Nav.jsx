@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../products/feedback.css";
-
 function Nav() {
   return (
     <React.Fragment>
@@ -17,7 +16,7 @@ function Nav() {
             <Link className="navbar-brand" to="/">Yo'qotdim</Link>
           </li>
           <li className="navbar_li">
-            <Link className="navbar-brand" to="/">Ro'yhatdan o'tish</Link>
+            <Link className="navbar-brand" to="/registration">Ro'yhatdan o'tish</Link>
           </li>
           <li className="navbar_li">
             <Link className="navbar-brand" to="/">Kirish</Link>

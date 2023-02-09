@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 .col-product{margin:0 10px}.col-product div{display:flex;flex-wrap:wrap;margin:0 5px;margin-top:25px}.card-product{width:18rem;border:1px solid red !important;padding:10px;display:flex;flex-direction:column}.card-product .product-img{width:100%}.card-product .product-title{font-size:25px}/*# sourceMappingURL=main.css.map */
+=======
+.col-product {
+  margin: 10px;
+}
+
+.card-product {
+  width: 18rem;
+  border: 1px solid red;
+  padding: 10px;
+}
+.card-product .product-img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> 410642a2a5018e49c91fb660f28ec1551eb89edd

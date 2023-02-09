@@ -7,8 +7,7 @@ function Main(props) {
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(0);
 
-  useEffect(
-    (e) => {
+  useEffect((e) => {
       (async function () {
         try {
           const response = await axios.get(

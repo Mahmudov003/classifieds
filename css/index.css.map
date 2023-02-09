@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../src/sass/global.scss","../src/sass/main.scss"],"names":[],"mappings":"AAAA,EACM,QAAA,CACA,SAAA,CACA,qBAAA,CCHN,aACM,WAAA,CACA,iBACM,YAAA,CACA,cAAA,CACA,eAAA,CAIZ,cACM,WAAA,CACA,oBAAA,CACA,YAAA,CACA,YAAA,CACA,qBAAA,CACA,2BACM,UAAA,CAGN,6BACM,cAAA","file":"index.css"}
+=======
+{"version":3,"sources":["../src/sass/global.scss","index.css","../src/sass/main.scss"],"names":[],"mappings":"AAAA;EACM,SAAA;EACA,UAAA;EACA,sBAAA;ACCN;;ACJA;EACM,YAAA;ADON;;ACJA;EACM,YAAA;EACA,qBAAA;EACA,aAAA;ADON;ACNM;EACM,WAAA;ADQZ","file":"index.css"}
+>>>>>>> 410642a2a5018e49c91fb660f28ec1551eb89edd

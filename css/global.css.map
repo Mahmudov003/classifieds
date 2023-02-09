@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../src/sass/global.scss"],"names":[],"mappings":"AAAA,EACM,QAAA,CACA,SAAA,CACA,qBAAA","file":"global.css"}
+=======
+{"version":3,"sources":["../src/sass/global.scss","global.css"],"names":[],"mappings":"AAAA;EACM,SAAA;EACA,UAAA;EACA,sBAAA;ACCN","file":"global.css"}
+>>>>>>> 410642a2a5018e49c91fb660f28ec1551eb89edd
