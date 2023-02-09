@@ -3,13 +3,14 @@
       div {
             display: flex;
             flex-wrap: wrap;
+            margin: 0 5px;
             margin-top: 25px;
       }
 }
 
 .card-product {
       width: 18rem;
-      border: 1px solid red;
+      border: 1px solid red !important;
       padding: 10px;
       display: flex;
       flex-direction: column;
