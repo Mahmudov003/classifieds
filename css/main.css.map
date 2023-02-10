@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":["../src/sass/main.scss"],"names":[],"mappings":"AAAA,aACM,aAAA,CACA,iBACM,YAAA,CACA,cAAA,CACA,YAAA,CACA,eAAA,CAIZ,cACM,WAAA,CACA,+BAAA,CACA,YAAA,CACA,YAAA,CACA,qBAAA,CACA,2BACM,UAAA,CAGN,6BACM,cAAA","file":"main.css"}
-=======
-{"version":3,"sources":["../src/sass/main.scss","main.css"],"names":[],"mappings":"AAAA;EACM,YAAA;ACCN;;ADEA;EACM,YAAA;EACA,qBAAA;EACA,aAAA;ACCN;ADAM;EACM,WAAA;ACEZ","file":"main.css"}
->>>>>>> 410642a2a5018e49c91fb660f28ec1551eb89edd
