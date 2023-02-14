@@ -19,6 +19,9 @@ function Nav() {
             <Link className="navbar-brand" to="/registration">Ro'yhatdan o'tish</Link>
           </li>
           <li className="navbar_li">
+            <Link className="navbar-brand" to="/">Qo'shish</Link>
+          </li>
+          <li className="navbar_li">
             <Link className="navbar-brand" to="/">Kirish</Link>
           </li>
         </ul>
